@@ -1,4 +1,3 @@
-import turtle
 from tkinter import PhotoImage
 from turtle import Turtle, Screen, Shape
 import pandas as pd
@@ -25,7 +24,7 @@ end_game = False
 
 while not end_game:
     try:
-        user_input = turtle.textinput(title="Periodic Elements", prompt="Enter Symbols Of Periodic Elements").title()
+        user_input = screen.textinput(title="Periodic Elements", prompt="Enter Symbols Of Periodic Elements").title()
         # print(user_input)
         if user_input == "Exit":
             for symbol in symbol_list:
@@ -49,5 +48,6 @@ while not end_game:
 
 
 study_df = df[~df["Symbol of the Element"].isin(user_list)]
+study_csv = study_df.iloc[:, :3].to_csv("Periodic_Elements_To_Study.csv")
 
-# study_csv = study_df.to_csv("Periodic_Elements_To_Study.csv")
+
