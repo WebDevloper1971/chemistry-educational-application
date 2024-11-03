@@ -1,7 +1,7 @@
 # Chemistry Educational Application
 
 ## Snapshot
-[snapshot](periodic_table.gif)
+[snapshot](https://github.com/WebDevloper1971/chemistry-educational-application/blob/main/periodic_table.gif)
 
 ## Description
 A chemistry education application on the periodic table provides interactive learning experiences, visual representations of elements, and detailed information about their properties and uses. It enhances students' understanding of chemical relationships.
